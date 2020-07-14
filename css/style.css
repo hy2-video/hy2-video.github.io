@@ -30,7 +30,7 @@ body {
   font-size: 16px;
   font-weight: 100;
   line-height: 1.5;
-  color: #fcfcfc;
+  color: #190505;
   margin: 0;
   padding: 0;
 }
@@ -457,7 +457,7 @@ footer {
 }
 
 #fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
-  background-image: url("../images/fb/fancybox_sprite.png");
+  background-image: url("../images/fb/fancybox_sprite.png" alt="video");
 }
 
 #fancybox-loading {
@@ -564,7 +564,7 @@ footer {
   overflow: hidden;
   display: none;
   z-index: 8010;
-  background: url("../images/fb/fancybox_overlay.png");
+  background: url("../images/fb/fancybox_overlay.png" alt="video");
 }
 
 .fancybox-overlay-fixed {
@@ -640,7 +640,7 @@ footer {
 /* Retina graphics */
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
   #fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
-    background-image: url("../images/fb/fancybox_sprite@2x.png");
+    background-image: url("../images/fb/fancybox_sprite@2x.png" alt="video");
     background-size: 44px 152px;
     /*The size of the normal image, half the size of the hi-res image*/
   }
